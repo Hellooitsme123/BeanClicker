@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BEAN CLICKER</h1>
+    <div class="flex">
+        <div>
+            <p id="beans">Beans: </p>
+            <p id="beansps">TOTAL BPS: </p>
+            <button class="click" id="btn">CLICK BEANS</button>
+        </div>
+        <div id="questdiv">
+            <button class="quest" id="quest">Quest 1: Give Adoba 300 beans</button><span id="questsp">&emsp;MULTIPLIER: </span><br><span class="questdesc" id="questdesc">Give Adoba 300 beans for +2% multiplier on beans.</span>
+            
+        </div>
+        <div class="hidden" id="beanicupgdiv">
+            <button class="beanicupg" id="beanicupg">Beanic Upgrade 1: Celestial Beans (250000)</button><br><span class="beanicupgdesc" id="beanicupgdesc">Start producing the rare & highly sought after celestial beans, giving +40% total multiplier.</span>
+            
+        </div>
+        <div id="kitdiv">
+            <button class="kit" id="starterkit1">Starter Kit 1 (+5000 beans)</button>
+            <br><br>
+            <button class="kit" id="starterkit2">Starter Kit 2 (+250000 beans & 15 beanators)</button>
+        </div>
+        <div id="savediv">
+            <input type="text" id="savetext">
+            <br>
+            <button class="save" id="import">Load Save</button>&ensp;<button class="save" id="import2">Special Load</button>
+            <br>
+            <button class="save" id="export">Save Game</button>&ensp;<button class="save" id="export2">Special Save</button>
+        </div>
+    </div>
+    <br><br>
+    
+    <h3>UPGRADES</h3>
+    <div id="upgrades">
+        <button class="upg" id="beanator">Beanators Lvl 1 (30)</button><span id="beanatorsp" class="upgstat">&emsp;BPS: | MULT: </span>
+        <br><br>
+        <button class="upg" id="enhancer">Enhancers Lvl 1 (100)</button><span id="enhancersp" class="upgstat">&emsp;BPS: | MULT: </span>
+        <br><br>
+        <button class="upg" id="worker">Workers Lvl 1 (400)</button><span id="workersp" class="upgstat">&emsp;CLICK BONUS: | MULT: </span>
+        <br><br>
+        <button class="upg" id="enchantment">Enchantments Lvl 1 (1500)</button><span id="enchantmentsp" class="upgstat">&emsp;BPS: | MULT: </span>
+        <br><br>
+        <div class="hidden" id="hidden1">
+            
+            <button class="upg" id="redbeanator">Red Beanators Lvl 1 (500)</button><span id="redbeanatorsp" class="upgstat">&emsp;BPS: | MULT: </span>
+        </div>
+        <br>
+        <div class="hidden" id="hidden2">
+            <button class="upg" id="beanfuse">Bean Fuse Lvl 1 (5000)</button><span id="beanfusesp" class="upgstat">&emsp;BPS: | MULT: </span>
+        </div>
+        <br>
+        <div class="hidden" id="hidden3">
+            <button class="upg" id="beanrecycler">Bean Fuse Lvl 1 (5000)</button><span id="beanrecyclersp" class="upgstat">&emsp;BPS: | MULT: </span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

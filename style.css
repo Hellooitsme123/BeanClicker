@@ -1,0 +1,149 @@
+* {
+    font-family: 'Trebuchet MS';
+}
+body {
+    transition: 1s ease-in-out;
+}
+#beansps {
+    font-size: 12px;
+}
+.upg {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+.upg:hover {
+    opacity: 0.8;
+    width: 110px;
+    height: 62px;
+    font-size:15px;
+}
+.click {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+.quest {
+    border-radius: 10px;
+    width: 120px;
+    height: 70px;
+    border: none;
+    background-color:crimson;
+    cursor: pointer;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+#questsp {
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    font-size: 14px;
+}
+.questdesc {
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.flex {
+    display: flex;
+}
+.flex > div {
+    width:150px;
+    height: 110px;
+    margin: 10px;
+    padding: 5px;
+}
+#upgrades {
+    width: 400px;
+}
+.upgstat {
+    font-size: 12px;
+}
+.hidden {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+.kit {
+    border-radius: 10px;
+    width: 115px;
+    height: 65px;
+    border: none;
+    background-color:cornflowerblue;
+    cursor: pointer;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+.kit:hover {
+    opacity: 0.8;
+    width: 120px;
+    height: 70px;
+    font-size: 15px;
+}
+.save {
+    border-radius: 10px;
+    width: 75px;
+    height: 45px;
+    border: none;
+    background-color:cornsilk;
+    cursor: pointer;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    margin-top: 10px;
+}
+.save:hover {
+    opacity: 0.8;
+    width: 85px;
+    height: 52px;
+    font-size: 15px;
+}
+input {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(220,220,220);
+}
+.beanicupg {
+    border-radius: 10px;
+    width: 115px;
+    height: 65px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+.beanicupg:hover {
+    opacity: 0.8;
+    width: 120px;
+    height: 70px;
+    font-size:15px;
+}
+.beanicupgdesc {
+    font-size: 12px;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+#savediv {
+    width:300px;
+    height: 160px;
+    margin: 10px;
+    padding: 5px;
+}
